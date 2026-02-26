@@ -64,37 +64,12 @@ export default function Footer() {
               </a>
             </div>
           </div>
-
-          {/* Footer links - visible on sm and up */}
-          <div className="sm:col-span-3 lg:col-span-4">
-            <div className="grid grid-cols-3 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-12">
-              {Object.entries(footerLinks).map(([category, links]) => (
-                <div key={category}>
-                  <h3 className="font-semibold text-[#e5e5e5] mb-3 sm:mb-4 text-sm sm:text-base">
-                    {category}
-                  </h3>
-                  <ul className="space-y-2 sm:space-y-3">
-                    {links.map((link) => (
-                      <li key={link}>
-                        <a
-                          href="#"
-                          className="text-[#a3a3a3] hover:text-[#e5e5e5] transition-colors duration-200 text-xs sm:text-sm"
-                        >
-                          {link}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
 
         <div className="pt-6 sm:pt-8 border-t-0 sm:border-t border-[#282828]">
           <div className="flex flex-col sm:flex-row justify-between items-center space-y-3 sm:space-y-0">
             <p className="text-[#a3a3a3] text-xs sm:text-sm">
-              © 2025 CodeFlow. All rights reserved.
+              © 2026 CookingAI. All rights reserved.
             </p>
             <div className="flex items-center space-x-4 sm:space-x-6 text-xs sm:text-sm">
               <a

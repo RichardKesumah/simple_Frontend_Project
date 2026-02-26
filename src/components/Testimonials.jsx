@@ -1,27 +1,27 @@
 const testimonials = [
     {
-        name: "Sarah Chen",
-        role: "Senior Developer",
+        name: "Vincent",
+        role: "Self Proclaimed Senior Developer",
         image:
-            "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=200",
+            "./public/vincent.png",
         content:
-            "This AI-powered development platform has revolutionized how we write code. The intelligent suggestions save us hours every day.",
+            "I don't know how the code works but it works.",
     },
     {
-        name: "Marcus Rodriguez",
-        role: "Tech Lead",
+        name: "Kevin",
+        role: "Self Centred Tech Lead",
         image:
-            "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=200",
+            "./public/kevin.png",
         content:
-            "The automated testing and debugging features are game-changers. We ship code faster and with more confidence than ever before.",
+            "The code is working I don't know why, nah we are cooked.",
     },
     {
-        name: "Emily Watson",
-        role: "CTO",
+        name: "Jeremy",
+        role: "Hard Headed CEO",
         image:
-            "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=200",
+            "./public/jeremy.jpg",
         content:
-            "Our development velocity increased by 300% since adopting this platform. It's like having a senior developer pair programming with every team member.",
+            "Our development pace is faster now but I don't know what the code is doing, but that is not my problem LOL.",
     },
 ];
 

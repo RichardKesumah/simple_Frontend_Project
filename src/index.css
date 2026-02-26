@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
-
-
+html {
+    scroll-behavior: smooth;
+}
 
 @layer utilities {
     .animate-in {
