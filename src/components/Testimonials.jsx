@@ -3,7 +3,7 @@ const testimonials = [
         name: "Vincent",
         role: "Self Proclaimed Senior Developer",
         image:
-            "./public/vincent.png",
+            "./vincent.png",
         content:
             "I don't know how the code works but it works.",
     },
@@ -11,7 +11,7 @@ const testimonials = [
         name: "Kevin",
         role: "Self Centred Tech Lead",
         image:
-            "./public/kevin.png",
+            "./kevin.png",
         content:
             "The code is working I don't know why, nah we are cooked.",
     },
@@ -19,7 +19,7 @@ const testimonials = [
         name: "Jeremy",
         role: "Hard Headed CEO",
         image:
-            "./public/jeremy.jpg",
+            "./jeremy.jpg",
         content:
             "Our development pace is faster now but I don't know what the code is doing, but that is not my problem LOL.",
     },

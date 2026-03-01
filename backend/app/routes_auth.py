@@ -18,6 +18,16 @@ def signup(data: UserCreate, session: Session = Depends(get_session)):
     if existing:
         raise HTTPException(status_code=400, detail="Email or username already exists")
 
+    # basic password strength check
+    pwd = data.password
+    if len(pwd) < 8 or not any(c.islower() for c in pwd) or not any(c.isupper() for c in pwd) or not any(
+        c.isdigit() for c in pwd
+    ):
+        raise HTTPException(
+            status_code=400,
+            detail="Password must be at least 8 characters and include lowercase, uppercase, and a number.",
+        )
+
     user = User(
         email=data.email,
         username=data.username,

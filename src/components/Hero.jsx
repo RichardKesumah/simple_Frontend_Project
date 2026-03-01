@@ -57,12 +57,12 @@ export default function Hero(){
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 mb-8 sm:mb-12 animate-in slide-in-from-bottom duration-700 delay-300">
-                            <button className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-red-500 via-orange-400 to-yellow-300 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-102 flex items-center justify-center space-x-2">
+                            <button className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-red-500 via-orange-400 to-yellow-300 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-102 flex items-center justify-center space-x-2 hover:cursor-pointer">
                                 <span>Start Cooking</span>
                                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300" />  
                             </button>
 
-                            <button className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-[#2a2a2a] backdrop-blur-sm border border-[#282828] rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:bg-[#3a3a3a] flex items-center justify-center space-x-2">
+                            <button className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-[#2a2a2a] backdrop-blur-sm border border-[#282828] rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:bg-[#3a3a3a] flex items-center justify-center space-x-2 hover:cursor-pointer">
                                 <div className="p-2 bg-[#3a3a3a] rounded-full group-hover:bg-[#404040] duration-300 transition-colors">
                                     <Play className="w-4 h-4 sm:w-5 sm:h-5 fill-[#e5e5e5]"/>
                                 </div>
