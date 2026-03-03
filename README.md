@@ -1,3 +1,5 @@
+# React + FastAPI Authentication App
+
 ## Project Overview
 
 This project is a modern web application built with **React**, **Vite**, and **Tailwind CSS**, with a strong focus on smooth animations and clean UI/UX design.
