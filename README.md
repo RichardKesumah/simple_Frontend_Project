@@ -1,10 +1,10 @@
-###Project Overview
+## Project Overview
 
 This project is a modern web application built with **React**, **Vite**, and **Tailwind CSS**, with a strong focus on smooth animations and clean UI/UX design.
 
 The backend is powered by **FastAPI**, handling authentication features including user login and signup.
 
-###Tech Stack
+## Tech Stack
 
 **Frontend**
 - React
@@ -16,7 +16,7 @@ The backend is powered by **FastAPI**, handling authentication features includin
 - RESTful API structure
 - Authentication system (Login & Signup)
 
-###Features
+## Features
 - Responsive and modern UI
 - Smooth animations and transitions
 - User authentication (Login / Signup)
